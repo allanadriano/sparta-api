@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm prisma:*)",
+      "Bash(npx prisma:*)",
+      "Bash(PRISMA_USER_CONSENT_FOR_DANGEROUS_AI_ACTION=\"quero\" npx prisma migrate reset --force)",
+      "Bash(taskkill /F /FI \"WINDOWTITLE eq prisma*\" 2>/dev/null; npx prisma migrate dev --name init)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && pnpm add dayjs)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npm install dayjs)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npm install dayjs --engine-strict=false --force)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -30)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx eslint src/routes/home.ts src/usecases/GetHome.ts src/schemas/index.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -20)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx eslint src/routes/workout-plan.ts src/usecases/GetWorkoutPlan.ts src/schemas/index.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx eslint src/routes/workout-plan.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -20 && npx eslint src/routes/workout-plan.ts src/usecases/GetWorkoutDay.ts src/schemas/index.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -20 && npx eslint src/routes/stats.ts src/usecases/GetStats.ts src/schemas/index.ts src/index.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -20 && npx eslint src/routes/workout-plan.ts src/usecases/ListWorkoutPlans.ts src/schemas/index.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -20 && npx eslint src/routes/me.ts src/usecases/GetUserTrainData.ts src/usecases/UpsertUserTrainData.ts src/schemas/index.ts src/index.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | head -10 && npx eslint src/routes/me.ts 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npm install --force 2>&1 | tail -5)",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx tsc --noEmit 2>&1 | grep \"ai.ts\")",
+      "Bash(cd \"C:\\\\Users\\\\allan\\\\Documents\\\\treinos-api\" && npx eslint src/routes/ai.ts src/index.ts 2>&1)",
+      "Bash(npx tsc:*)",
+      "Bash(npx eslint:*)"
+    ]
+  }
+}
