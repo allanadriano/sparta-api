@@ -1,4 +1,5 @@
 node_modules/
 /src/generated/prisma
 .env
-./dist
+dist/
+.claude/settings.local.json
